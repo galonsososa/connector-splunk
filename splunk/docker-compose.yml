@@ -1,7 +1,7 @@
 version: '3'
 services:
   connector-splunk:
-    build: ./splunk/OpenCTI-connector-test
+    build: galonsososa/connector-splunk:1.1
     environment:
       - OPENCTI_URL=http://localhost
       - OPENCTI_TOKEN=ChangeMe
